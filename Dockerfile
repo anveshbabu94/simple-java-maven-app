@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-COPY target/cloud-config-server.jar cloud-config-server.jar
-ENTRYPOINT ["java","-jar","/cloud-config-server.jar"]
+COPY target/my-app-1.0-SNAPSHOT.jar my-app-1.0-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/my-app-1.0-SNAPSHOT.jar"]
